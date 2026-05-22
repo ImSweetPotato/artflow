@@ -1,0 +1,32 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.db
+*.db-journal
+
+# ── 生成的图片和上传文件（不入库，体积太大）──
+backend/outputs/
+backend/uploads/
+outputs/
+
+# ── 测试/临时文件 ──
+backend/test_*.py
+backend/test_*.png
+backend/import_data.json
+backend/_check_db.py
+_check_db.py
+
+# ── Node / Next.js ──
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env*.local
+frontend/tsconfig.tsbuildinfo
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
